@@ -51,7 +51,7 @@ let routine = [wakeDog ,leashDog ,walkToPark ,throwFrisbee
 function exerciseDog (dogName , dogBreed){
   console.log(routine.length);
   let result= [];
-  for(let i=0; i<=routine.length; i++){
+  for(let i=0; i<routine.length; i++){
    let string= routine[i](dogName,dogBreed);
   result.push(string);
   }
