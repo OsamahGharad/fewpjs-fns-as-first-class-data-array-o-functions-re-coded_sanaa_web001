@@ -55,7 +55,7 @@ function exerciseDog (dogName, dogBreed){
    let arrayO= routine[i](dogName,dogBreed);
   result.push(arrayO);
   }
-  return 'result';
+  return result;
 }
 // console.log(exerciseDog('lucy','bundle'));
 let result =exerciseDog('lucy','bundle');
