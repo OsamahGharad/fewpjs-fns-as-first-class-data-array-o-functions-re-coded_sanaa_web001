@@ -31,7 +31,8 @@ function unleashDog(dogName, dogBreed) {
 return `Unleash ${dogName} the ${dogBreed}`;
 }
 
-let routine = [walkHome,leashDog,Walk,throwFrisbee,walkHome,unleashDog];
+let routine = [wakeDog ,leashDog ,walkToPark ,throwFrisbee
+,walkHome,unleashDog] ;
 
 function exerciseDog(dogName, dogBreed){
   let result= [];
