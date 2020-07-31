@@ -20,4 +20,3 @@ return `Wake ${dogName} the ${dogBreed}`;
 function unleashDog(dogName, dogBreed) {
 return `Wake ${dogName} the ${dogBreed}`;
 }
-
