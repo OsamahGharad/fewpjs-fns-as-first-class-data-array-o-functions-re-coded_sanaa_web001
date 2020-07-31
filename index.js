@@ -49,7 +49,7 @@ return string;
 let routine = [wakeDog ,leashDog ,walkToPark ,throwFrisbee
 ,walkHome,unleashDog] ;
 
-function exerciseDog(dogName, dogBreed){
+function exerciseDog (dogName, dogBreed){
   console.log(routine.length);
   let result= [];
   for(let i=0; i<=routine.length; i++){
