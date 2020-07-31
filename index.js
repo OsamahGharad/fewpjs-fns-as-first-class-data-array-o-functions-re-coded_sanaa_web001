@@ -48,14 +48,15 @@ return string;
 let routine = [wakeDog ,leashDog ,walkToPark ,throwFrisbee
 ,walkHome,unleashDog] ;
 
-function exerciseDog (dogName , dogBreed){
+function exerciseDog  (dogName , dogBreed) {
+
   console.log(routine.length);
-  let result= [];
-  for(let i=0; i<=routine.length; i++){
-   let string= routine[i](dogName,dogBreed);
-  result.push(string);
+    let result = [];
+  for (let i = 0; i < routine.length ; i++ ){
+    let string = routine[i](dogName,dogBreed);
+    result.push(string);
   }
-  return result;
+  return result ;
 }
 // console.log(exerciseDog('lucy','bundle'));
 let result =exerciseDog('lucy','bundle');
