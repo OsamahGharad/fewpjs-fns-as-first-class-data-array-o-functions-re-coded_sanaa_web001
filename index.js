@@ -8,11 +8,11 @@ return `Leash ${dogName} the ${dogBreed}`;
 }
 
 function walkToPark(dogName, dogBreed) {
-return `Walk to the park ${dogName} the ${dogBreed}`;
+return `Walk to the park with ${dogName} the ${dogBreed}`;
 }
 
 function throwFrisbee(dogName, dogBreed) {
-return `Throw the frisbee ${dogName} the ${dogBreed}`;
+return `Throw the frisbee for ${dogName} the ${dogBreed}`;
 }
 function walkHome(dogName, dogBreed) {
 return `Walk home with ${dogName} the ${dogBreed}`;
