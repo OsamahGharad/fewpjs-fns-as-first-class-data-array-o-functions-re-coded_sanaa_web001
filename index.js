@@ -43,7 +43,6 @@ function unleashDog(dogName, dogBreed) {
 let string = `Unleash ${dogName} the ${dogBreed}`;
 console.log(string);
 return string;
-
 }
 
 let routine = [wakeDog ,leashDog ,walkToPark ,throwFrisbee
@@ -58,4 +57,5 @@ function exerciseDog (dogName, dogBreed){
   }
   return 'result';
 }
-console.log(exerciseDog('lucy','bundle'));
+// console.log(exerciseDog('lucy','bundle'));
+let result =exerciseDog('lucy','bundle');
