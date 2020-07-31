@@ -12,7 +12,7 @@
 function wakeDog(dogName, dogBreed) {
  let string =`Wake ${dogName} the ${dogBreed}`;
  console.log(string);
- 
+
 }
 
 function leashDog(dogName, dogBreed) {
