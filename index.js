@@ -1,5 +1,5 @@
 // When this program runs, it should print out:
-// 
+//
 // ```
 // console.log("Wake Byron the poodle");
 // console.log("Leash Byron the poodle");
@@ -36,11 +36,9 @@ let routine = [walkHome,leashDog,Walk,throwFrisbee,walkHome,unleashDog];
 function exerciseDog(dogName, dogBreed){
   let result= [];
   for(let i=0;i<=routine.length;i++){
-    
+
   result.push(routine[i](dogName, dogBreed));
   }
   return 'result';
 }
 console.log(exerciseDog('lucy','bundle'));
-
-
